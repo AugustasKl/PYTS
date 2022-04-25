@@ -1,0 +1,50 @@
+.section {
+  margin-left: -8rem;
+}
+.list {
+  margin-top: 1.8rem;
+  font-family: "Open Sans";
+}
+.section h2 {
+  width: 100%;
+  margin: 0 0 0 3rem;
+  font-weight: 800;
+  font-family: "Roboto";
+  font-size: 1.3rem;
+}
+@media (max-width: 1024px) {
+  .section {
+    margin-left: -3rem;
+  }
+}
+@media (max-width: 768px) {
+  .section {
+    margin-left: 4rem;
+  }
+  .list {
+    margin-top: 1rem;
+  }
+  .section h2 {
+    font-size: 1.2rem;
+    margin-top: -0.3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .section {
+    width: 25rem;
+    margin-left: 0.1rem;
+  }
+
+  .section h2 {
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 425px) {
+  .section {
+    width: 23rem;
+  }
+}

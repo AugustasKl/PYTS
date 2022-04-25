@@ -1,0 +1,141 @@
+li{
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.radio {
+  padding: 0 4rem 0 0;
+  border: 2px solid #00000014;
+  border-radius: 10px;
+  display: flex;
+  cursor: pointer;
+}
+
+.container {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  user-select: none;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.option {
+  padding: 0 0.25rem;
+  margin-top: -0.2rem;
+}
+.discount {
+  background-color: #ffe082;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  padding: 0.25rem;
+  font-weight: 600;
+}
+.title {
+  display: flex;
+  gap: 0.5rem;
+}
+.prices {
+  margin-top: -1.3rem;
+  font-size: 1rem;
+}
+.bold {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.details {
+  margin-top: -1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.highlight {
+  color: #ff9b4e;
+}
+.checkmark {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  height: 1.3rem;
+  width: 1.3rem;
+  background-color: #eee;
+  border-radius: 50%;
+  margin-right: -3rem;
+}
+.button {
+  padding: 1rem 0;
+  background: #ff9b4e;
+  box-shadow: 0px 16px 32px rgba(255, 155, 78, 0.24);
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px solid #ff9b4e;
+  width: 100%;
+}
+/* On hover, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* when the radio button is checked, add image */
+.container input:checked ~ .checkmark {
+  background-image: url("../../../assets/svg/check.svg");
+}
+
+.radio:hover {
+  border: 2px solid #ff9b4e;
+}
+.radio:focus {
+  border: 2px solid #ff9b4e;
+  border-color: #ff9b4e;
+}
+.button:hover {
+  color: #ff9b4e;
+  background-color: #ffffff;
+  border: 1px solid #ff9b4e;
+}
+
+@media (max-width: 768px) {
+  .discount {
+    padding: 0.15rem;
+    font-size: 0.6rem;
+  }
+  .details {
+    font-size: 0.6rem;
+  }
+  .prices {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .radio {
+    width: 25rem;
+  }
+  .option {
+    padding: 0.4rem;
+  }
+  .title {
+    font-size: 0.9rem;
+  }
+  .details {
+    font-size: 0.9rem;
+  }
+  .discount {
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .radio {
+    width: 21.5rem;
+    margin-right: 1.2rem;
+  }
+  .title {
+    font-size: 0.8rem;
+  }
+}

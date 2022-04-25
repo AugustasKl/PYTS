@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list ul {
+  margin-top: -0.2rem;
+}
+.list h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+@media (max-width: 768px) {
+  .list h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .list {
+    align-items: flex-start;
+  }
+  .list h3 {
+    margin-left: 2.75rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .list h3 {
+    font-size: 1.2rem;
+    margin-left: 1.7rem;
+  }
+}

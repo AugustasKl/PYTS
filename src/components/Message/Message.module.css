@@ -1,0 +1,28 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  font-family: "Open Sans";
+}
+@media (max-width: 768px) {
+  .message {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .message {
+    font-size: 1rem;
+    align-items: flex-start;
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .message {
+    margin-left: 0.85rem;
+  }
+}

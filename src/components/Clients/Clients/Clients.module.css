@@ -1,0 +1,40 @@
+.clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.clients h2{
+    font-weight: 700;
+    font-size:1.4rem;
+}
+
+
+  @media (max-width: 1024px) {
+    .clients{
+        margin-top: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .clients{
+        margin-top: 0.5rem;
+        
+    }
+  }
+  @media (max-width: 425px) {
+    .clients h2{
+        font-family: 'Roboto';
+        font-weight: 600;
+        font-size:1.4rem;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .clients h2{
+font-size: 1.2rem;
+    }
+  }

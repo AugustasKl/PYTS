@@ -1,0 +1,17 @@
+.answer {
+  font-size: 0.8rem;
+  white-space: pre-line;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .answer {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .answer {
+    font-size: 0.8rem;
+  }
+}

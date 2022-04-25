@@ -1,0 +1,50 @@
+.phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.phone h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-right: 3rem;
+}
+.phone img {
+  width: 25rem;
+  height: 25rem;
+}
+
+@media (max-width: 768px) {
+  .phone h3 {
+    font-size: 1.3rem;
+  }
+  .phone img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+@media (max-width: 425px) {
+  .phone h3 {
+    margin-right: 3.5rem;
+  }
+  .phone img {
+    background-image: url("./../../../assets/svg/background.svg");
+    width: 23rem;
+    height: 23rem;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .phone h3 {
+    margin-right: -4rem;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .phone img {
+    background-image: url("./../../../assets/svg/background.svg");
+    width: 21rem;
+    height: 21rem;
+    margin-left: 1.5rem;
+  }
+}

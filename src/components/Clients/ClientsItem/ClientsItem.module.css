@@ -1,0 +1,87 @@
+.item {
+  display: table-cell;
+  font-family: "Open Sans";
+  box-shadow: -2px 6px 44px 18px rgba(0, 0, 0, 0.09);
+  border-radius: 16px;
+  width: 33%;
+  padding: 0.75rem;
+}
+
+.name {
+  font-style: inherit;
+  font-weight: 600;
+}
+.city {
+  color: #ccc;
+  font-size: 0.75rem;
+  padding-bottom: 0.5rem;
+  font-weight: 400;
+}
+.stars {
+  padding: 0.5rem 0;
+}
+.image {
+  padding-bottom: 0.75rem;
+}
+.image img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.comment {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  padding: 0.3rem 0;
+  font-weight: 400;
+  color: #22222c;
+}
+@media (max-width: 768px) {
+  .item {
+    font-size: 0.85rem;
+  }
+
+  .city {
+    font-size: 0.65rem;
+  }
+  .stars {
+    padding: 0.1rem 0;
+  }
+  .image img {
+    width: 7rem;
+    height: 7rem;
+  }
+  .comment {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 425px) {
+  
+  .name{
+      font-size: 1.1rem;
+      font-weight: 400;
+  }
+  .city {
+    font-size: 0.75rem;
+  }
+  .image img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .comment {
+    height: 17rem;
+    width: 21rem;
+    font-size: 1rem;
+  }
+  .stars {
+    padding: 0.2rem 0;
+  }
+}
+
+@media (max-width: 375px) {
+    .comment {
+        height: 16rem;
+        width: 19rem;
+        font-size: 0.95rem;
+      }
+}

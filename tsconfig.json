@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
+    
+    "lib":[
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es2018",
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -22,5 +24,5 @@
   },
   "include": [
     "src"
-  ]
+, "DUMMY_DATA"  ]
 }

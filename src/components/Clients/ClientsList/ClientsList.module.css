@@ -1,0 +1,33 @@
+.list {
+  display: table-row;
+  max-width: 100%;
+  width: 55%;
+  border-spacing: 1rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .list {
+    width: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .list {
+    width: 100%;
+    margin-right: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .list {
+    margin-left: -0.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .list {
+    margin-left: -1rem;
+  }
+}

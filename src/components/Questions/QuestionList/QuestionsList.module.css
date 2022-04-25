@@ -1,0 +1,25 @@
+.list {
+  width: 45rem;
+  margin-top: -0.5rem;
+}
+
+@media (max-width: 768px) {
+  .list {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .list {
+    width: 28rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .list {
+    width: 25rem;
+    margin-right: 2.4rem;
+    border-spacing: 0.8rem;
+  }
+}

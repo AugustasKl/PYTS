@@ -1,0 +1,40 @@
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.questions h2 {
+  text-align: center;
+  margin-left: 2rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 1024px) {
+  .questions {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .questions h2 {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .questions h2 {
+    width: 100%;
+    margin-top: 3rem;
+    margin-right: 10.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .questions h2 {
+    margin-right: 6.5rem;
+  }
+}
